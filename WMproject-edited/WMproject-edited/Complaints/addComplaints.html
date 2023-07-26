@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Complains</title>
-</head>
-<body>
-    <div>
-        <label for="name"> Your Name</label> <br>
-        <input type="text" name="name" required> <br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Complains</title>
+        <link rel="stylesheet" href="addComplains.css">
+    </head>
+    <body>
+        <div id="form">
+            <div class="formTitle">
+                <h2>Enter Your Complain Here</h2>
+            </div>
 
-        <label for="email"> Your Email Address</label> <br>
-        <input type="email" name="email" required> <br>
+            <div class="formLines">
+                <label for="name" class="label"> Your Name</label> <br>
+                <input type="text" name="name" required> <br>
+            </div>
+            
+            <div class="formLines">
+                <label for="email" class="label"> Your Email Address</label> <br>
+                <input type="email" name="email" required> <br>
+            </div>
 
-        <label for="name"> Describe Your Complain</label> <br>
-        <input type="text" name="complainTitle" required> <br>
+            <div class="formLines">
+                <label for="name" class="label"> What is your complain? </label> <br>
+                <input type="text" name="complainTitle" required> <br>
+            </div>
+            
+            <div class="formLines">
+                <label for="name" class="label"> Describe Complain</label> <br>
+                <input type="text" name="complainDescription" required> <br>
+            </div>
+            
+            <div class="formLines">
+                <label for="name" class="label"> Upload Your Image</label> <br>
+                <input type="file" id="img" name="ComplainImage" accept="image/*"> <br>
+            </div>
 
-        <label for="name"> Your Name</label> <br>
-        <input type="text" name="complainDescription" required> <br>
-
-        <label for="name"> Your Name</label> <br>
-        <input type="image" name="complainImage"> <br>
-
-        <input type="submit" name="submit">
-    </div>    
-</body>
+            <input type="submit" name="submit">
+        </div>    
+    </body>
 </html>

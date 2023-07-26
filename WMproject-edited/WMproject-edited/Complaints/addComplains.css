@@ -1,0 +1,22 @@
+#form{
+    background-color: antiquewhite;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 30%;
+    height: 40%;
+    width: 20%;
+}
+
+.formTitle {
+
+}
+
+.formLines {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.label {
+    margin-bottom: 15px;
+}
