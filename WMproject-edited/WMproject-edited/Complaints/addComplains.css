@@ -1,22 +1,61 @@
+body {
+    background-color: #c9934c;
+}
+
 #form{
-    background-color: antiquewhite;
+    background-color: #faebd7;
     position: absolute;
     margin-top: 8%;
     margin-left: 30%;
-    height: 40%;
+    height: 65%;
     width: 20%;
+    border-radius: 20px;
 }
 
 .formTitle {
-
+    margin-left: 50px;
 }
 
 .formLines {
     position: relative;
-    margin-left: 20px;
+    margin-left: 37px;
     margin-top: 30px;
 }
 
 .label {
     margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formInputItem {
+    width: 300px;
+    padding: 3px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #c9934c
+}
+
+#ImageUpload {
+    margin-top: 5px;
+
+}
+
+#submitButton {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 70%;
+    height: 20px;
+    width: 20%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #f7b35a;
+    font-weight: bold;
+}
+
+#complainDescription {
+    height: 120px;
 }

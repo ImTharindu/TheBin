@@ -14,30 +14,31 @@
 
             <div class="formLines">
                 <label for="name" class="label"> Your Name</label> <br>
-                <input type="text" name="name" required> <br>
+                <input type="text" name="name" class="formInputItem" required> <br>
             </div>
             
             <div class="formLines">
                 <label for="email" class="label"> Your Email Address</label> <br>
-                <input type="email" name="email" required> <br>
+                <input type="email" name="email" class="formInputItem" required> <br>
             </div>
 
             <div class="formLines">
                 <label for="name" class="label"> What is your complain? </label> <br>
-                <input type="text" name="complainTitle" required> <br>
+                <input type="text" name="complainTitle" class="formInputItem" required> <br>
             </div>
             
             <div class="formLines">
                 <label for="name" class="label"> Describe Complain</label> <br>
-                <input type="text" name="complainDescription" required> <br>
+                <textarea id="complainDescription" name="complainDescription" class="formInputItem" rows="4" cols="50" required></textarea>
+                <!-- <input type="text" name="complainDescription" id="complainDescription" class="formInputItem" required> <br> -->
             </div>
             
             <div class="formLines">
                 <label for="name" class="label"> Upload Your Image</label> <br>
-                <input type="file" id="img" name="ComplainImage" accept="image/*"> <br>
+                <input type="file" name="ComplainImage" id="ImageUpload" accept="image/*"> <br>
             </div>
 
-            <input type="submit" name="submit">
+            <input type="submit" name="submit" id="submitButton">
         </div>    
     </body>
 </html>
