@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+}
+
+.banner {
+    margin-left: 400px;
+}
+
+.line {
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+#description {
+    width: 380px;
+}
+
+#complainLines {
+    position: absolute;
+    margin-top: 20px;
+}
+
+#addComplainButton {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 55%;
+}
+
+#complain {
+    background-color: rgb(34, 119, 34);
+    position: relative;
+    margin-top: 100px;
+    height: 200px;
+    width: 600px;
+    margin-left: 500px;
+}
+
+#complainImage {
+    height: 130px;
+    width: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 35px;
+}
